@@ -1,7 +1,7 @@
 
 " Move lines up/down.
-nnoremap <s-k> :m-2<cr>
-nnoremap <s-j> :m+1<cr>
+nnoremap gj :m-2<cr>
+nnoremap gk :m+1<cr>
 
 " Append contexts.
 let @a = "A @annabelle\<esc>"
